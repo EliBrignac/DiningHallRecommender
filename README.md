@@ -27,8 +27,8 @@ https://forms.gle/XzLqrb3DHNRENKPfA
 
 #### Looking back, What I wish I did differnetly
 - I would have broken the working_webscraper_3 file into multiple different files. One for webscraping the info and parsing the info, another for caluclating the scores, and another for formating the scores. This would have made the code much more easily understandable. 
-- I would have used more algorithms to decrease run time. I should implemented more sorting and search algorithms to decrease run time. Once there were lots of emails (20+) it would start to take 2-3 minutes to send all emails.
-- While I could fix these things, because it is no longer being used, and no longer needed there isn't much point to.
+- I should implemented more sorting and search algorithms to decrease run time. Once there were lots of emails (20+) it would start to take 2-3 minutes to send all the emails. Durring the time I made this, I didn't know any search or sorting algorithms and looking back on it now I know I could have implemented a whole lot of them.
+- While I could fix these things, because this is no longer being used, and no longer needed there isn't much point to.
 
 
 
