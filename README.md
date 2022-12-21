@@ -1,7 +1,7 @@
 # DiningHallRecommender
 
 ## Introduction:
-This is a Udel Dining hall recomendation service that recommends the best dining hall for you to go to based off of your dining preferences. This solves the problem for freshman who have to look at both the CR and Russell menus to determine which one to go to for a meal. Each user must first take a google survey of their allergys, dietary restrictions (vegan, vegitarian, neither), and their preferential food choices. Once the data is collected the best dining hall is chosen and emailed to them 30 minutes prior to the dining hall opening for breakfast, lunch, and dinner. This email is always sent at the same time because the code is running on an AWS EC2 server with chron job instructions. However the regular emails aren't being sent anymore because my free trial for AWS has terminated.
+This is a Udel Dining hall recomendation service that recommends the best dining hall for you to go to based off of your dining preferences. This solves the problem for freshman who have to look at both the CR and Russell menus to determine which one to go to for a meal. Each user must first take a google survey of their allergys, dietary restrictions (vegan, vegitarian, neither), and their preferential food choices. Once the data is collected the best dining hall is chosen and emailed to them 30 minutes prior to the dining hall opening for breakfast, lunch, and dinner. This email is always sent at the same time because the code is running on an AWS EC2 server with chron job instructions. However the regular emails aren't being sent anymore because my free trial for AWS has terminated and most people didn't end up using it that much.
 
 ### Files Summary:
 
@@ -24,6 +24,7 @@ https://forms.gle/XzLqrb3DHNRENKPfA
 - Sending emails with python
 - Setting up an AWS EC2 server
 - Setting up chron jobs
+- Linux terminal (Ubuntu)
 
 #### Looking back, What I wish I did differnetly
 - I would have broken the working_webscraper_3 file into multiple different files. One for webscraping the info and parsing the info, another for caluclating the scores, and another for formating the scores. This would have made the code much more easily understandable. 
